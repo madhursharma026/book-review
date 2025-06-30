@@ -82,3 +82,24 @@ This project supports book creation, review management, caching via Redis, and i
 ├── nest-cli.json
 ├── README.md
 ```
+
+
+🛠 How to Run the Project
+1. Install Dependencies
+npm install
+
+2. Run Redis & MySQL
+Ensure Redis and MySQL are running locally:
+
+Redis on localhost:6379
+
+MySQL on localhost:3306 with DB book_review
+
+3. Run Migrations
+npx typeorm-ts-node-commonjs migration:run -d src/data-source.ts
+
+4. Start the Server
+npm run start:dev
+
+App will be live at: http://localhost:3000
+Swagger docs: http://localhost:3000/api
