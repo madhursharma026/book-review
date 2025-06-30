@@ -40,6 +40,7 @@ This project supports book creation, review management, caching via Redis, and i
 
 ## 📁 Project Structure
 
+```
 📁 book-review/
 ├── 📂 src/
 │   ├── 📂 books/
@@ -80,3 +81,4 @@ This project supports book creation, review management, caching via Redis, and i
 ├── tsconfig.build.json
 ├── nest-cli.json
 ├── README.md
+```
